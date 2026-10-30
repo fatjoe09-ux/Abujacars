@@ -1,0 +1,7 @@
+.co-grid{display:grid;grid-template-columns:1.6fr 1fr;gap:28px;align-items:start}
+.co-sum{position:sticky;top:90px;display:flex;flex-direction:column;gap:10px}
+.co-sum img{border-radius:12px;aspect-ratio:3/2;object-fit:cover;width:100%;background:var(--navy)}
+.co-sum .row{display:flex;justify-content:space-between;font-size:.9rem;padding-top:10px;border-top:1px dashed var(--line)}
+.co-sum .tot{font-size:1.1rem}.co-sum .tot b{color:var(--red)}
+.full-btn{grid-column:1/-1}
+@media(max-width:850px){.co-grid{grid-template-columns:1fr}.co-sum{position:static}}

@@ -1,0 +1,58 @@
+.cars-reg{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+    justify-content: center;
+
+}
+
+.cars-reg form{
+    background: blue;
+    width: 500px;
+    padding: 40px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.cars-reg form button{
+    background: maroon;
+    color: white;
+}
+
+.cars-reg .input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cars-reg input, .students-reg select{
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+.cars-reg textarea{
+    
+    border: none;
+    padding: 10px;
+    resize: vertical;
+
+}
+.cars-reg form button{
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.cars-reg form button:hover{
+    opacity: .7;
+}
+
+.loader-img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}

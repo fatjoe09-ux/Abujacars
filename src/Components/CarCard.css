@@ -1,0 +1,56 @@
+.car-card { background: #fff; border: 1px solid #e5e7eb; border-radius: 16px; overflow: hidden; transition: box-shadow 0.2s; }
+
+.car-card:hover { box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12); }
+
+.car-card-image { position: relative; aspect-ratio: 4 / 3; overflow: hidden; background: #f3f4f6; }
+
+.car-card-image > img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.5s; }
+
+.car-card:hover .car-card-image > img { transform: scale(1.05); }
+
+.car-card-status, .car-card-mode { position: absolute; top: 12px; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 600; }
+
+.car-card-status { left: 12px; color: #fff; }
+
+.car-card-status.is-new { background: #dc2626; }
+
+.car-card-status.is-used { background: #111827; }
+
+.car-card-mode { right: 12px; background: rgba(255, 255, 255, 0.92); color: #111827; }
+
+.car-card-body { padding: 16px; display: flex; flex-direction: column; gap: 12px; }
+
+.car-card-title { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+
+.car-card-title h3 { font-size: 1rem; color: #111827; }
+
+.car-card-logo { width: 24px; height: 24px; object-fit: contain; }
+
+.car-card-desc { font-size: 0.875rem; color: #6b7280; line-height: 1.5; }
+
+.car-card-row { display: flex; align-items: center; justify-content: space-between; }
+
+.car-card-price { font-size: 1.125rem; font-weight: 700; color: #dc2626; }
+
+.car-card-price span { font-size: 0.875rem; font-weight: 500; color: #9ca3af; }
+
+.car-card-avail { padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 500; }
+
+.car-card-avail.available { background: #ecfdf5; color: #047857; }
+
+.car-card-avail.rented { background: #fffbeb; color: #b45309; }
+
+.car-card-avail.sold { background: #f3f4f6; color: #6b7280; }
+
+.car-card-btn { flex: 1; display: block; text-align: center; background: #fff; font-family: inherit; cursor: pointer; padding: 10px; border: 1px solid #111827; border-radius: 8px; color: #111827; text-decoration: none; font-size: 0.875rem; font-weight: 500; transition: 0.2s; }
+
+.car-card-btn:hover { background: #111827; color: #fff; }
+
+.car-card-actions { display: flex; gap: 8px; }
+
+.car-card-btn-primary { background: #dc2626; border-color: #dc2626; color: #fff; }
+
+.car-card-btn-primary:hover { background: #b91c1c; border-color: #b91c1c; }
+
+.car-card-btn-primary:disabled { background: #e5e7eb; border-color: #e5e7eb; color: #9ca3af; cursor: not-allowed; }
+ 

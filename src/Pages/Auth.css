@@ -1,0 +1,28 @@
+.auth-page { min-height: 70vh; display: flex; align-items: center; justify-content: center; padding: 48px 16px; background: #f9fafb; }
+
+.auth-card { width: 100%; max-width: 480px; background: #fff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px; }
+
+.auth-card h1 { font-size: 1.6rem; color: #111827; }
+
+.auth-sub { margin: 6px 0 24px; color: #6b7280; font-size: 0.92rem; }
+
+.auth-roles { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 20px; padding: 4px; background: #f3f4f6; border-radius: 10px; }
+
+.auth-roles button { border: none; background: none; padding: 10px; border-radius: 8px; font-weight: 500; font-size: 0.9rem; cursor: pointer; color: #4b5563; font-family: inherit; }
+
+.auth-roles button.active { background: #fff; color: #dc2626; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
+
+.auth-row { display: flex; gap: 12px; }
+
+.auth-submit { width: 100%; padding: 12px; border: none; border-radius: 8px; background: #dc2626; color: #fff; font-size: 0.95rem; font-weight: 600; cursor: pointer; font-family: inherit; }
+
+.auth-submit:hover { background: #b91c1c; }
+
+.auth-submit:disabled { background: #fca5a5; cursor: not-allowed; }
+
+.auth-switch { margin-top: 20px; text-align: center; font-size: 0.9rem; color: #6b7280; }
+
+.auth-switch a { color: #dc2626; font-weight: 500; text-decoration: none; }
+
+@media (max-width: 520px) { .auth-card { padding: 24px 18px; } .auth-row { flex-direction: column; gap: 0; } }
+ 
