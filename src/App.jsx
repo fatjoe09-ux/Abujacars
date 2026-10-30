@@ -9,7 +9,7 @@ import Marketplace from "./Pages/Marketplace";
 import "./App.css";
 import CarDetails from "./Pages/CarDetails";
 import Register from "./Pages/Register";
-import ProtectedRoute from "./components/ProtectedRoute";
+import ProtectedRoute from "./Components/ProtectedRoute";
 import Profile from "./Pages/Profile";
 import Login from "./Pages/Login";
 import { CarsProvider } from "./context/CarsContext";
