@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 
 import { Link, useParams } from "react-router-dom";
 
-import BookingModal from "../components/BookingModal";
+import BookingModal from "../Components/BookingModal";
 
-import CarCard from "../components/CarCard";
+import CarCard from "../Components/CarCard";
 
 import { useCars } from "../context/CarsContext";
 

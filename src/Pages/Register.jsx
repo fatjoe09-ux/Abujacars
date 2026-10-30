@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 
 import { Link, Navigate, useNavigate } from "react-router-dom";
 
-import FormField from "../components/FormField";
+import FormField from "../Components/FormField";
 
 import { useAuth } from "../context/AuthContext";
 

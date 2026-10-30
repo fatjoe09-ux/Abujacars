@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useApp } from '../context/AppContext';
-import Reveal from '../components/Reveal';
+import Reveal from '../Components/Reveal';
 import './Vendors.css';
 
 export default function Vendors() {

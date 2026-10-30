@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useAuth } from "../context/AuthContext";
-import "./NavBar.css";
+import "./Navbar.css";
 const links = [
  { to: "/", label: "Home" },
  { to: "/marketplace", label: "Marketplace" },

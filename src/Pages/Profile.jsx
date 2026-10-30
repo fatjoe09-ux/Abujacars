@@ -8,9 +8,9 @@ import { toast } from "react-toastify";
 
 import { useNavigate } from "react-router-dom";
 
-import FormField from "../components/FormField";
+import FormField from "../Components/FormField";
 
-import VendorCars from "../components/VendorCars";
+import VendorCars from "../Components/VendorCars";
 
 import { useAuth } from "../context/AuthContext";
 

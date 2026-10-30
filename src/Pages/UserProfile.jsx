@@ -4,7 +4,7 @@ import * as Yup from 'yup';
 import { Link, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { useApp } from '../context/AppContext';
-import Field from '../components/Field';
+import Field from '../Components/Field';
 import { money } from '../utils/format';
 import './UserProfile.css';
 

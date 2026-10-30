@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import { Link, useSearchParams } from "react-router-dom";
 
-import CarCard from "../components/CarCard";
+import CarCard from "../Components/CarCard";
 
 import { brands } from "../data/cars";
 
